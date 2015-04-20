@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>trees</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script type="text/javascript" src="bmap.js"></script>
+	<script>	
+		window.onload = init;
+
+		function init() 
+		{
+				var trees = { "type" : "FeatureCollection", "features" : "" }
+				var toAdd = [];
+				
+				$.each(geojsonFeature.features, function() {
+					//if ( this.properties.tags.natural == 'tree' ) {
+					//if ( typeof this.properties.tags.building !== 'undefined' ) {
+					if ( typeof this.properties.tags["addr:housenumber"] !== 'undefined' ) {
+						var topkek = this;
+						//delete topkek.properties.tags;
+						//delete topkek.properties.meta;
+						toAdd.push(topkek);
+					}
+				});
+				trees.features = toAdd;
+				document.getElementById("target").innerHTML= JSON.stringify(trees);
+		}
+	</script>
+  </head>
+  <body>
+	<code id="target"></code>
+  </body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>osm2geojson</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="text/javascript" src="osmtogeojson.js"></script>
+  </head>
+  <body>
+    <script>	
+		$.get("file:///D://Users//Cáno//Utility//Zaległości//Webdesign//Free Walking Map//input.osm", function(data) {
+		   $( "code").html(JSON.stringify(osmtogeojson(data)));
+		});
+	</script>
+
+	<code></code>
+  </body>
+</html>
