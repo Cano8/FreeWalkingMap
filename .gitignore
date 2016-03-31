@@ -1,5 +1,5 @@
-/Data/*
-/Notes/*
+/Data/
+/notes/
 
 # Windows image file caches
 Thumbs.db
