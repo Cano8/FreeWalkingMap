@@ -1,0 +1,13 @@
+plan dzialania po pobraniu tiled osm
+	turn to geojson
+	add data from your own files (write a script that will assign all buildings to addresses)
+	split to layers
+
+
+
+java program to download tiles
+tree clusters
+get the geojson tiles through API and then show them when needed
+download the geojson data from OSMB and prvide it locally (modify script)
+
+is there a way to flatten a projection? (like 45 deg)

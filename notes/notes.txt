@@ -1,0 +1,32 @@
+the area is about 1 tile on zoom 12
+on zoom 20 that is 2^8 tiles
+
+
+mozliwosc tworzenia sciezek
+45 deg maps (hand drawn?)
+
+prawy przycisk - okragle menu z opcjami
+
+dzien i noc!
+
+drzewa poruszaja sie przy poruszaniu mapa
+
+
+ability to leave notes and photos attached to all objects (also integrate it in some cool way to mobile app???)
+
+Schematic coloured map with 3d buildings
+Ekrany akustyczne zaznacz na mapie
+APP notifies near cool locations
+Ruchome koło i balon, zegar na ratuszy pokazujacy godzine
+Noc zapadajaca na mapie (night overlay z oświetleniem)
+Wycieczki i wydarzenia w czasie rzeczywistym (np pokazujace sciezke wycieczki i gdzie jest przewodnik)
+Wydarzenia przesyłane przez ludzi
+możliwość zobaczenia zdjec i przejscia do streetview
+
+Możliwość reklamy wydarzenia lub miejsca
+
+
+mozliwosc zostawiania ukrytych wiadomosci po ktore trzeba pojsc albo chronionych haslem
+
+
+printing
